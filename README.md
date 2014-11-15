@@ -47,3 +47,15 @@ This is my reading list for Bayesian probability and its application to machine 
 - Bayesian statistics - P. M. Lee
 - Bayesian inference in statistical analysis - Box and Tiao
 - Bayesian data analysis - Gelman, Karlin, Stern and Rubin
+- 
+### Bayesian decision theory
+- Statistical decision theory - J. O. Berger
+- The Bayesian choice: From decision-theoretic foundations to computational implementation - C. P. Robert
+- 
+### Bayesian risk analysis
+- [Wash-1400](https://en.wikipedia.org/wiki/WASH-1400): The Reactor Safety Study - N. Rasmussen et al.
+- [On the quantitative definition of risk](http://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.1981.tb01350.x/abstract;jsessionid=825CCFCF2B25EA36D722BB7B6E8EF3CB.f01t02) - Garrick and Kaplan.
+- Probabilistic risk analysis - Bedford and Cooke
+
+### Bayesian networks
+
