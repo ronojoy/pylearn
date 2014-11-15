@@ -42,4 +42,8 @@ This is my reading list for Bayesian probability and its application to machine 
 - Probability Theory - Harold Jeffreys
 - Probability Theory : the logic of science - Edwin Jaynes
 
-
+### Bayesian inference in statistical analysis
+- Data analysis : a Bayesian tutorial - Devinder Sivia
+- Bayesian statistics - P. M. Lee
+- Bayesian inference in statistical analysis - Box and Tiao
+- Bayesian data analysis - Gelman, Karlin, Stern and Rubin
