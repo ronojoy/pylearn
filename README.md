@@ -28,7 +28,7 @@ Here, I will list reading material, algorithms and their software implementation
 
 ## Reading list
 
-Here, I have put together a reading list for Bayesian probability and its application to machine learning problems. The sections covered in this list are:
+This is my reading list for Bayesian probability and its application to machine learning problems. The sections covered in this list are:
 
 - [Classics of Bayesian probability](#classics)
 - [Bayesian inference in statistical analysis]()
