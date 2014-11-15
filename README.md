@@ -22,7 +22,9 @@ they can be programmed on the computing machine which is the human brain*.
 
 Jaynes went on to show that these "consistent rules" are just the rules of Bayesian probability theory, supplemented by Laplace's principle of indifference and, its generalization, Shannon's the principle of maximum entropy. This key observation implies that a computer can be programmed to "learn", or, update probabilities based on data, in a manner that mimics the human brain. **Machine learning, then, is the creative application of Bayesian probability to problems of inference conditioned by data.** 
 
-Given some very minimal desiderata, the rules of Bayesian probability are the only ones which conform to what, intuitively, we recognize as *rationality*.  [Rahul Siddharthan](www.imsc.res.in/~rsidd), my colleague at [The Institute of Mathematical Sciences](www.imsc.res.in), and I wrote [short article in The Hindu](http://www.thehindu.com/sci-tech/science/article2747042.ece) about this. 
+Given some very minimal desiderata, the rules of Bayesian probability are the only ones which conform to what, intuitively, we recognize as *rationality*.  [Rahul Siddharthan](www.imsc.res.in/~rsidd), my colleague at [The Institute of Mathematical Sciences](www.imsc.res.in), and I wrote a [short article in The Hindu](http://www.thehindu.com/sci-tech/science/article2747042.ece) about this. 
+
+Here, I will list reading material, algorithms and their software implementation, and examples of applications of Bayesian machine learning to real-word problems. I welcome contributions - clone this repository and send me a pull request!
 
 ## Reading list
 
