@@ -6,8 +6,9 @@ PyLearn is a resource for Bayesian machine learning in Python.
 
 ### Introduction
 
-How do we learn from experience ? Edwin Jaynes, in his influential [How does the brain do plausible reasoning ?](http://bayes.wustl.edu/etj/articles/brain.pdf),  
-wrote
+How do we learn from experience ?   
+
+Edwin Jaynes, in his influential [How does the brain do plausible reasoning ?](http://bayes.wustl.edu/etj/articles/brain.pdf), wrote
 
 > One of the most familiar facts of our experience is this: that there *is* such a thing as common sense, which enables us to do plausible reasoning in a fairly consistent
 way. People who have the same background of experience and the same amount
