@@ -60,6 +60,8 @@ This is my reading list for Bayesian probability and its application to machine 
 
 ### Bayesian networks
 - The Science of Proof: As Given by Logic, Psychology and General Experience and Illustrated in Judicial Trials - J. H. Wigmore
+- The Analysis of Evidence: How to Do Things with Facts Based on Wigmore's Science of Judicial Proof - Anderson and Twining
 - [Correlation and Causation](http://www.ssc.wisc.edu/soc/class/soc952/Wright/Wright_Correlation%20and%20Causation.pdf) - Sewall Wright
+- [Using a graphical method to assist the evaluation of complicated patterns of evidence](http://www.ncjrs.gov/App/abstractdb/AbstractDBDetails.aspx?id=168682) - Dawid and Evett
 - Probabilistic Reasoning in Intelligent Systems - Judea Pearl
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
