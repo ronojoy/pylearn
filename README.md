@@ -65,3 +65,22 @@ This is my reading list for Bayesian probability and its application to machine 
 - [Using a graphical method to assist the evaluation of complicated patterns of evidence](http://www.ncjrs.gov/App/abstractdb/AbstractDBDetails.aspx?id=168682) - Dawid and Evett
 - Probabilistic Reasoning in Intelligent Systems - Judea Pearl
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
+
+## Alogrithms and software
+
+This is a resource for machine learning in Python. The basic toolchain for quantitative includes
+- [Numpy](www.numpy.scipy.org) - N-dimensional arrays for Python
+- [Scipy](www.scipy.org) - basic numerical algorithms, built on top of Numpy
+- [Pandas](www.pandas.pydata.org) - data structures and tools for data analysis
+- [Matplotlib](matplotlib.org) - 2d plotting library
+- [Ipython](ipython.org) - an enhanced Python shell and notebook interface
+
+The machine learning software listed below depends on some or all of these tools. A comparison chart of features of each will be added soon. 
+
+- [scikit-learn](http://scikit-learn.sourceforge.net/)
+- [PyBrain]()
+- [PyML]()
+- [mlpy](http://mlpy.sourceforge.net/)
+- [milk](https://pythonhosted.org/milk/)
+- [Orange](http://orange.biolab.si/) - GUI driven or Python scripted
+
