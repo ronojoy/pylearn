@@ -68,7 +68,7 @@ This is my reading list for Bayesian probability and its application to machine 
 
 ## Algorithms and software
 
-This is a resource for machine learning in Python. The basic toolchain for quantitative includes
+Since this is a resource for machine learning in Python, this basic toolchain is *sine quo non* !
 - [Numpy](www.numpy.scipy.org) - N-dimensional arrays for Python
 - [Scipy](www.scipy.org) - basic numerical algorithms, built on top of Numpy
 - [Pandas](www.pandas.pydata.org) - data structures and tools for data analysis
