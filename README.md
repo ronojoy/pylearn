@@ -66,7 +66,7 @@ This is my reading list for Bayesian probability and its application to machine 
 - Probabilistic Reasoning in Intelligent Systems - Judea Pearl
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
 
-## Alogrithms and software
+## Algorithms and software
 
 This is a resource for machine learning in Python. The basic toolchain for quantitative includes
 - [Numpy](www.numpy.scipy.org) - N-dimensional arrays for Python
