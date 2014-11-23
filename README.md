@@ -24,7 +24,7 @@ Jaynes went on to show that these "consistent rules" are just the rules of Bayes
 
 Given some very minimal desiderata, the rules of Bayesian probability are the only ones which conform to what, intuitively, we recognize as *rationality*.  [Rahul Siddharthan](https://www.imsc.res.in/~rsidd), my colleague at [The Institute of Mathematical Sciences](https://www.imsc.res.in), and I wrote a [short article in The Hindu](http://www.thehindu.com/sci-tech/science/article2747042.ece) about this. We followed this by a workshop and conference, [Bayes by the Bay](http://imsc50.imsc.res.in/article/bayes), with lectures by distinguished international colleagues on applications of Bayesian inference to physics, biology, earth sciene, brain function and more. The [lectures are available on YouTube](https://www.youtube.com/playlist?list=PLhkiT_RYTEU2dnkJVZ8Tvr9QQx6xVuL30).
 
-Here, I will list reading material, algorithms and their software implementation, and examples of applications of Bayesian machine learning to real-word problems. I welcome contributions - clone this repository and send me a pull request!
+Here, I will list [reading material](https://github.com/ronojoy/pylearn#reading-list), [algorithms and their software implementation](https://github.com/ronojoy/pylearn#algorithms-and-software), and examples of applications of Bayesian machine learning to real-word problems. I welcome contributions - clone this repository and send me a pull request!
 
 ## Reading list
 
