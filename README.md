@@ -30,11 +30,11 @@ Here, I will list reading material, algorithms and their software implementation
 
 This is my reading list for Bayesian probability and its application to machine learning problems. The sections covered in this list are:
 
-- [Classics of Bayesian probability](#classics)
-- [Bayesian inference in statistical analysis]()
-- [Bayesian decision theory]()
-- [Bayesian risk analysis]()
-- [Bayesian networks]()
+- [Classics of Bayesian probability](https://github.com/ronojoy/pylearn#classics-of-bayesian-probability)
+- [Bayesian inference in statistical analysis](https://github.com/ronojoy/pylearn#bayesian-inference-in-statistical-analysis)
+- [Bayesian decision theory](https://github.com/ronojoy/pylearn#bayesian-decision-theory)
+- [Bayesian risk analysis](https://github.com/ronojoy/pylearn#bayesian-risk-analysis)
+- [Bayesian networks](https://github.com/ronojoy/pylearn#bayesian-networks)
 
 ### Classics of Bayesian probability
 - Philosophical Essay on Probabilities - Pierre-Simon Laplace
