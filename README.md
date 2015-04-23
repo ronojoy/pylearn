@@ -65,6 +65,7 @@ This is my reading list for Bayesian probability and its application to machine 
 - [Using a graphical method to assist the evaluation of complicated patterns of evidence](http://www.ncjrs.gov/App/abstractdb/AbstractDBDetails.aspx?id=168682) - Dawid and Evett
 - Probabilistic Reasoning in Intelligent Systems - Judea Pearl
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
+- Probabilistic Graphical Models - Koller and Friedman
 
 ## Algorithms and software
 
@@ -75,12 +76,11 @@ Since this is a resource for machine learning in Python, this basic toolchain is
 - [Matplotlib](matplotlib.org) - 2d plotting library
 - [Ipython](ipython.org) - an enhanced Python shell and notebook interface
 
-The machine learning software listed below depends on some or all of these tools. A comparison chart of features of each will be added soon. 
 
-- [scikit-learn](http://scikit-learn.sourceforge.net/)
-- [PyBrain]()
-- [PyML]()
-- [mlpy](http://mlpy.sourceforge.net/)
-- [milk](https://pythonhosted.org/milk/)
-- [Orange](http://orange.biolab.si/) - GUI driven or Python scripted
+This is list focusses on the usual regression, clustuering and classification tasks, and, on Bayesian networks. 
+
+- [scikit-learn](http://scikit-learn.sourceforge.net/) - regression, clustering, classification and more.
+- [libpgm](http://pythonhosted.org/libpgm/) - representation, inference and learning of probabilistic graphical models.
+- [pgmpy](https://github.com/pgmpy) - same as above but has a NetworkX interface to visualize pgms.
+- [Daft](https://github.com/dfm/daft) - rendering of probabilistic graphical models.
 
