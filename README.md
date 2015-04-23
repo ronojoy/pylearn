@@ -83,4 +83,4 @@ This is list focusses on the usual regression, clustuering and classification ta
 - [libpgm](http://pythonhosted.org/libpgm/) - representation, inference and learning of probabilistic graphical models.
 - [pgmpy](https://github.com/pgmpy) - same as above but has a NetworkX interface to visualize pgms.
 - [Daft](https://github.com/dfm/daft) - rendering of probabilistic graphical models.
-
+- [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/) - Venture, BayesDB, Picture and CrossCat. 
