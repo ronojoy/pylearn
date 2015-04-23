@@ -1,3 +1,5 @@
+![](pylearn.png)
+
 PyLearn
 =======
 
@@ -20,7 +22,9 @@ deductive reasoning. But in order for this to be possible, *there must exist con
 rules for carrying out plausible reasoning, in terms of operations so deﬁnite that
 they can be programmed on the computing machine which is the human brain*.
 
-Jaynes went on to show that these "consistent rules" are just the rules of Bayesian probability theory, supplemented by Laplace's principle of indifference and, its generalization, Shannon's principle of maximum entropy. This key observation implies that a computer can be programmed to "learn", or, update probabilities based on data, in a manner that mimics the human brain. **Machine learning, then, is the creative application of Bayesian probability to problems of inference conditioned by data.** 
+Jaynes went on to show that these "consistent rules" are just the rules of Bayesian probability theory, supplemented by Laplace's principle of indifference and, its generalization, Shannon's principle of maximum entropy. This key observation implies that a computer can be programmed to "learn", or, update probabilities based on data, in a manner that mimics the human brain. 
+
+**Machine learning, then, is the creative application of Bayesian probability to problems of inference based on data.** 
 
 Given some very minimal desiderata, the rules of Bayesian probability are the only ones which conform to what, intuitively, we recognize as *rationality*.  [Rahul Siddharthan](https://www.imsc.res.in/~rsidd), my colleague at [The Institute of Mathematical Sciences](https://www.imsc.res.in), and I wrote a [short article in The Hindu](http://www.thehindu.com/sci-tech/science/article2747042.ece) about this. We followed this by a workshop and conference, [Bayes by the Bay](http://imsc50.imsc.res.in/article/bayes), with lectures by distinguished international colleagues on applications of Bayesian inference to physics, biology, earth sciene, brain function and more. The [lectures are available on YouTube](https://www.youtube.com/playlist?list=PLhkiT_RYTEU2dnkJVZ8Tvr9QQx6xVuL30).
 
@@ -77,7 +81,7 @@ Since this is a resource for machine learning in Python, this basic toolchain is
 - [Ipython](ipython.org) - an enhanced Python shell and notebook interface
 
 
-This is list focusses on the usual regression, clustuering and classification tasks, and, on Bayesian networks. 
+The most popular machine learning library in Python is scikits-learn but few of its algorithms are explicitly probablistic. Probablistic graphical models are implemented in two good Python libraries listed below. 
 
 - [scikit-learn](http://scikit-learn.sourceforge.net/) - regression, clustering, classification and more.
 - [libpgm](http://pythonhosted.org/libpgm/) - representation, inference and learning of probabilistic graphical models.
