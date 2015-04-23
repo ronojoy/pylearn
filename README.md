@@ -88,3 +88,7 @@ The most popular machine learning library in Python is scikits-learn but few of 
 - [pgmpy](https://github.com/pgmpy) - same as above but has a NetworkX interface to visualize pgms.
 - [Daft](https://github.com/dfm/daft) - rendering of probabilistic graphical models.
 - [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/) - Venture, BayesDB, Picture and CrossCat. 
+
+Python has a several good IDEs. Two of my favourites are
+- [Spyder](spyderlib.org) - inspired by the Matlab IDE
+- [Rodeo](https://github.com/yhat/rodeo) - a data-centric IDE for Python
