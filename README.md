@@ -53,9 +53,9 @@ This is my reading list for Bayesian probability and its application to machine 
 
 - [Classics of Bayesian probability](https://github.com/ronojoy/pylearn#classics-of-bayesian-probability)
 - [Bayesian inference in statistical analysis](https://github.com/ronojoy/pylearn#bayesian-inference-in-statistical-analysis)
+- [Bayesian networks](https://github.com/ronojoy/pylearn#bayesian-networks)
 - [Bayesian decision theory](https://github.com/ronojoy/pylearn#bayesian-decision-theory)
 - [Bayesian risk analysis](https://github.com/ronojoy/pylearn#bayesian-risk-analysis)
-- [Bayesian networks](https://github.com/ronojoy/pylearn#bayesian-networks)
 
 ### Classics of Bayesian probability
 - Philosophical Essay on Probabilities - Pierre-Simon Laplace
@@ -69,6 +69,15 @@ This is my reading list for Bayesian probability and its application to machine 
 - Data analysis : a Bayesian tutorial - Devinder Sivia
 - Bayesian data analysis - Gelman, Karlin, Stern and Rubin  
 
+### Bayesian networks
+- The Science of Proof: As Given by Logic, Psychology and General Experience and Illustrated in Judicial Trials - J. H. Wigmore
+- - [Correlation and Causation](http://www.ssc.wisc.edu/soc/class/soc952/Wright/Wright_Correlation%20and%20Causation.pdf) - Sewall Wright
+- The Analysis of Evidence: How to Do Things with Facts Based on Wigmore's Science of Judicial Proof - Anderson and Twining
+- [Using a graphical method to assist the evaluation of complicated patterns of evidence](http://www.ncjrs.gov/App/abstractdb/AbstractDBDetails.aspx?id=168682) - Dawid and Evett
+- Probabilistic Reasoning in Intelligent Systems - Judea Pearl
+- Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
+- Probabilistic Graphical Models - Koller and Friedman
+
 
 ### Bayesian decision theory
 - Statistical decision theory - J. O. Berger
@@ -79,14 +88,6 @@ This is my reading list for Bayesian probability and its application to machine 
 - [On the quantitative definition of risk](http://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.1981.tb01350.x/abstract;jsessionid=825CCFCF2B25EA36D722BB7B6E8EF3CB.f01t02) -  Garrick and Kaplan
 - Probabilistic risk analysis - Bedford and Cooke
 
-### Bayesian networks
-- The Science of Proof: As Given by Logic, Psychology and General Experience and Illustrated in Judicial Trials - J. H. Wigmore
-- - [Correlation and Causation](http://www.ssc.wisc.edu/soc/class/soc952/Wright/Wright_Correlation%20and%20Causation.pdf) - Sewall Wright
-- The Analysis of Evidence: How to Do Things with Facts Based on Wigmore's Science of Judicial Proof - Anderson and Twining
-- [Using a graphical method to assist the evaluation of complicated patterns of evidence](http://www.ncjrs.gov/App/abstractdb/AbstractDBDetails.aspx?id=168682) - Dawid and Evett
-- Probabilistic Reasoning in Intelligent Systems - Judea Pearl
-- Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
-- Probabilistic Graphical Models - Koller and Friedman
 
 ## Algorithms and software
 
