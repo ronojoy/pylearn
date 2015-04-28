@@ -33,6 +33,20 @@ Here, I list [reading material](https://github.com/ronojoy/pylearn#reading-list)
 
 I welcome contributions - clone this repository and send me a pull request!
 
+
+## Machine learning quotes
+
+- "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E" - [Tom Mitchell](https://www.cs.cmu.edu/~tom/)
+
+- "... how do we take core inferential ideas and turn them into engineering systems that can work under whatever requirements that one has in mind (time, accuracy, cost, etc), that reflect assumptions that are appropriate for the domain, that are clear on what inferences and what decisions are to be made (does one want causes, predictions, variable selection, model selection, ranking, A/B tests, etc, etc), can allow interactions with humans (input of expert knowledge, visualization, personalization, privacy, ethical issues, etc, etc), that scale, that are easy to use and are robust. Indeed, with all due respect to bridge builders (and rocket builders, etc), but I think that we have a domain here that is more complex than any ever confronted in human society." - [Michael Jordan](https://www.eecs.berkeley.edu/Faculty/Homepages/jordan.html)
+
+
+- "Graphical models are a marriage between probability theory and graph theory. They provide a natural tool for dealing with two problems that occur throughout applied mathematics and engineering -- uncertainty and complexity -- and in particular they are playing an increasingly important role in the design and analysis of machine learning algorithms. Fundamental to the idea of a graphical model is the notion of modularity -- a complex system is built by combining simpler parts. Probability theory provides the glue whereby the parts are combined, ensuring that the system as a whole is consistent, and providing ways to interface models to data. The graph theoretic side of graphical models provides both an intuitively appealing interface by which humans can model highly-interacting sets of variables as well as a data structure that lends itself naturally to the design of efficient general-purpose algorithms." - [Michael Jordan](https://www.eecs.berkeley.edu/Faculty/Homepages/jordan.html)
+
+
+- Many of the classical multivariate probabalistic systems studied in fields such as statistics, systems engineering, information theory, pattern recognition and statistical mechanics are special cases of the general graphical model formalism -- examples include mixture models, factor analysis, hidden Markov models, Kalman filters and Ising models. The graphical model framework provides a way to view all of these systems as instances of a common underlying formalism. This view has many advantages -- in particular, specialized techniques that have been developed in one field can be transferred between research communities and exploited more widely. Moreover, the graphical model formalism provides a natural framework for the design of new systems." - [Michael Jordan](https://www.eecs.berkeley.edu/Faculty/Homepages/jordan.html)
+
+
 ## Reading list
 
 This is my reading list for Bayesian probability and its application to machine learning problems. The sections covered in this list are:
@@ -50,10 +64,10 @@ This is my reading list for Bayesian probability and its application to machine 
 - Probability Theory : the logic of science - Edwin Jaynes
 
 ### Bayesian inference in statistical analysis
-- Data analysis : a Bayesian tutorial - Devinder Sivia
 - Bayesian statistics - P. M. Lee
-- Bayesian data analysis - Gelman, Karlin, Stern and Rubin  
 - Bayesian inference in statistical analysis - Box and Tiao
+- Data analysis : a Bayesian tutorial - Devinder Sivia
+- Bayesian data analysis - Gelman, Karlin, Stern and Rubin  
 
 
 ### Bayesian decision theory
@@ -67,8 +81,8 @@ This is my reading list for Bayesian probability and its application to machine 
 
 ### Bayesian networks
 - The Science of Proof: As Given by Logic, Psychology and General Experience and Illustrated in Judicial Trials - J. H. Wigmore
+- - [Correlation and Causation](http://www.ssc.wisc.edu/soc/class/soc952/Wright/Wright_Correlation%20and%20Causation.pdf) - Sewall Wright
 - The Analysis of Evidence: How to Do Things with Facts Based on Wigmore's Science of Judicial Proof - Anderson and Twining
-- [Correlation and Causation](http://www.ssc.wisc.edu/soc/class/soc952/Wright/Wright_Correlation%20and%20Causation.pdf) - Sewall Wright
 - [Using a graphical method to assist the evaluation of complicated patterns of evidence](http://www.ncjrs.gov/App/abstractdb/AbstractDBDetails.aspx?id=168682) - Dawid and Evett
 - Probabilistic Reasoning in Intelligent Systems - Judea Pearl
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
@@ -95,3 +109,6 @@ The most popular machine learning library in Python is scikits-learn but few of 
 Python has a several good IDEs. Two of my favourites are
 - [Spyder](spyderlib.org) - inspired by the Matlab IDE
 - [Rodeo](https://github.com/yhat/rodeo) - a data-centric IDE for Python
+
+
+
