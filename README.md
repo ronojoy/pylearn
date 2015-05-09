@@ -104,6 +104,7 @@ The most popular machine learning library in Python is scikits-learn but few of 
 - [scikit-learn](http://scikit-learn.sourceforge.net/) - regression, clustering, classification and more.
 - [libpgm](http://pythonhosted.org/libpgm/) - representation, inference and learning of probabilistic graphical models.
 - [pgmpy](https://github.com/pgmpy) - same as above but has a NetworkX interface to visualize pgms.
+- [pomegranate](https://github.com/jmschrei/pomegranate) - graphical model module with nice syntax and Cython for speed.
 - [Daft](https://github.com/dfm/daft) - rendering of probabilistic graphical models.
 - [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/) - Venture, BayesDB, Picture and CrossCat. 
 - [UnBBayes](http://sourceforge.net/projects/unbbayes/) - the only non-Python code to make the list. Has Bayesian networks, probabilistic ontologies, and more!
