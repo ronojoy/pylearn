@@ -22,7 +22,7 @@ import numpy as np
 from pomegranate import *
 
 # Fred's code has bug 4 out of 10 times
-code = DiscreteDistribution( { 'w': 0.6, 'nw': 0.6 } )
+code = DiscreteDistribution( { 'w': 0.6, 'nw': 0.4 } )
 
 # The hardware works correcty 99 out 100 times
 hardware = DiscreteDistribution( { 'w': 0.99, 'nw': 0.01 } )
