@@ -15,7 +15,7 @@ gender = ConditionalProbabilityTable(
 
 
 # Class of travel, given survival data
-classt = ConditionalProbabilityTable(
+tclass = ConditionalProbabilityTable(
             [[ 'survive', 'first',  0.0 ],
              [ 'survive', 'second', 1.0 ],
              [ 'survive', 'third',  0.0 ],
@@ -25,9 +25,9 @@ classt = ConditionalProbabilityTable(
 
 
 # State objects hold both the distribution, and a high level name.
-s1 = State( passenger, name="passenger" )
-s2 = State( gender, name="gender" )
-s3 = State( classt, name="class" )
+s1 = State( passenger, name = "passenger" )
+s2 = State( gender, name = "gender" )
+s3 = State( tclass, name = "class" )
 
 # Create the Bayesian network object with a useful name
 network = BayesianNetwork( "Titanic Disaster" )
@@ -35,7 +35,8 @@ network = BayesianNetwork( "Titanic Disaster" )
 # Add the three nodes to the network
 network.add_nodes( [ s1, s2, s3 ] )
 
-# Add transitions which represent conditional depesndencies, where the second node is conditionally dependent on the first node (Monty is dependent on both guest and prize)
+# Add transitions which represent conditional depesndencies, where the second
+# node is conditionally dependent on the first node (Monty is dependent on both guest and prize)
 network.add_edge( s1, s2 )
 network.add_edge( s1, s3 )
 network.bake()
