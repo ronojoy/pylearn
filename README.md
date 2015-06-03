@@ -78,7 +78,9 @@ This is my reading list for Bayesian probability and its application to machine 
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
 - Bayesian Artificial Intelligence - Korb and Nicholson
 - Probabilistic Graphical Models - Koller and Friedman
+- Inovations in Bayesian Networks - Holmes and Jain 
 
+The last reference includes the classic **Tutorial on Learning with Bayesian Networks** by David Heckerman.
 
 ### Bayesian decision theory
 - Statistical decision theory - J. O. Berger
