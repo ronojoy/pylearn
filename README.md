@@ -47,6 +47,8 @@ I welcome contributions - clone this repository and send me a pull request!
 
 - "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E" - [Tom Mitchell](https://www.cs.cmu.edu/~tom/)
 
+- "...from now on we can compare our data with the model we actually want to use rather than with a model which has some mathematical convenient form. This is surely a revolution." - [Peter Clifford](http://www.stats.ox.ac.uk/~clifford/) on **Metropolis sampling**.
+
 ## Online courses
 
 - [Probabilistic graphical models](https://www.coursera.org/course/pgm) - by Daphne Koller on Coursera
