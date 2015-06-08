@@ -47,6 +47,9 @@ I welcome contributions - clone this repository and send me a pull request!
 
 - "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E" - [Tom Mitchell](https://www.cs.cmu.edu/~tom/)
 
+## Online courses
+
+- [Probabilistic graphical models](https://www.coursera.org/course/pgm) - by Daphne Koller on Coursera
 
 
 ## Reading list
@@ -78,7 +81,9 @@ This is my reading list for Bayesian probability and its application to machine 
 - Probabilistic Reasoning in Expert Systems : theory and algorithms - R. E. Neapolitan
 - Bayesian Artificial Intelligence - Korb and Nicholson
 - Probabilistic Graphical Models - Koller and Friedman
+- Inovations in Bayesian Networks - Holmes and Jain 
 
+The last reference includes the classic **Tutorial on Learning with Bayesian Networks** by David Heckerman.
 
 ### Bayesian decision theory
 - Statistical decision theory - J. O. Berger
