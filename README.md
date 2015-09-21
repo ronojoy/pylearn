@@ -29,7 +29,7 @@ Jaynes went on to show that these "consistent rules" are just the rules of Bayes
 I wrote a [short article in The Hindu](http://www.thehindu.com/sci-tech/science/article2747042.ece) about learning from experience, together with my colleague at [The Institute of Mathematical Sciences](https://www.imsc.res.in),  [Rahul Siddharthan](https://www.imsc.res.in/~rsidd). We jointly organized the [Bayes by the Bay](http://imsc50.imsc.res.in/article/bayes) where distinguished international colleagues lectured on applications of Bayesian inference to physics, biology, earth sciene, brain function and more. These [lectures are available on YouTube](https://www.youtube.com/playlist?list=PLhkiT_RYTEU2dnkJVZ8Tvr9QQx6xVuL30).
 
 
-Here, I list [reading material](https://github.com/ronojoy/pylearn#reading-list), [algorithms and software](https://github.com/ronojoy/pylearn#algorithms-and-software), and [tutorial slides](https://github.com/ronojoy/pylearn/tree/master/presentations) with [example codes](https://github.com/ronojoy/pylearn/tree/master/scripts) from the ongoing [workshop series](valuefromdata.net/events) co-organized with [Dorai Thodla](https://github.com/dorait). 
+Here, I list [reading material](https://github.com/ronojoy/pylearn#reading-list), [algorithms and software](https://github.com/ronojoy/pylearn#algorithms-and-software), and [tutorial slides](https://github.com/ronojoy/pylearn/tree/master/presentations) with [example codes](https://github.com/ronojoy/pylearn/tree/master/scripts) from the ongoing [workshop series](https://www.youtube.com/playlist?list=PLhkiT_RYTEU1mkJHBUiA2Ze56h6z1uZgj) co-organized with [Dorai Thodla](https://github.com/dorait). 
 
 I welcome contributions - clone this repository and send me a pull request!
 
