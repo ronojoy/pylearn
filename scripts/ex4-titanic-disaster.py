@@ -4,36 +4,41 @@ import numpy as np
 from pomegranate import *
 
 # Passengers on the Titanic either survive or perish
-passenger = DiscreteDistribution( { 'survive': 0.5, 'perish': 0.5 } )
+passenger = DiscreteDistribution( { 'w': 0.5, 'nw': 0.5 } )
+
+gender = ConditionalProbabilityTable(
+		[[ 'w','w',1],
+		 ['nw','w',0],
+     ['w','nw',0],
+     ['nw','nw',1]],[hardware])
+
 
 # Gender, given survival data
-gender = ConditionalProbabilityTable(
-            [[ 'survive', 'male',   0.0 ],
-             [ 'survive', 'female', 1.0 ],
-             [ 'perish', 'male',    1.0 ],
-	         [ 'perish', 'female',  0.0]], [passenger] )
-
+# gender = ConditionalProbabilityTable([[ 'survive', 'male',   0.1 ],
+#              [ 'survive', 'female', 0.9 ],
+#              [ 'perish', 'male',    0.1 ],
+# 	         [ 'perish', 'female',  0.9]], [passenger] )
+#
 
 # Class of travel, given survival data
-tclass = ConditionalProbabilityTable(
-            [[ 'survive', 'first',  0.0 ],
-             [ 'survive', 'second', 1.0 ],
-             [ 'survive', 'third',  0.0 ],
-             [ 'perish', 'first',  1.0 ],
-             [ 'perish', 'second', 0.0 ],
-	         [ 'perish', 'third',  0.0]], [passenger] )
+# tclass = ConditionalProbabilityTable(
+#              [[ 'survive', 'first',  0.3 ],
+#              [ 'survive', 'second', 0.3 ],
+#              [ 'survive', 'third',  0.6 ],
+#              [ 'perish', 'first',  0.4 ],
+#              [ 'perish', 'second', 0.3 ],
+# 	         [ 'perish', 'third',  0.3]], [passenger] )
 
 
 # State objects hold both the distribution, and a high level name.
 s1 = State( passenger, name = "passenger" )
 s2 = State( gender, name = "gender" )
-s3 = State( tclass, name = "class" )
 
 # Create the Bayesian network object with a useful name
 network = BayesianNetwork( "Titanic Disaster" )
 
 # Add the three nodes to the network
-network.add_nodes( [ s1, s2, s3 ] )
+network.add_nodes( [ s1, s2 ] )
 
 # Add transitions which represent conditional depesndencies, where the second
 # node is conditionally dependent on the first node (Monty is dependent on both guest and prize)

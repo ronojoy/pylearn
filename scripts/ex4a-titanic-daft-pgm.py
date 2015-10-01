@@ -1,3 +1,4 @@
+# draws a probabilistic graphical model for the Titanic problem
 from matplotlib import rc
 rc("font", family="serif", size=12)
 rc("text", usetex=True)
@@ -10,7 +11,7 @@ pgm = daft.PGM([6,4], origin=[0, 1])
 
 # create the nodes
 survived = daft.Node("survived", r"survived", 4, 4, aspect = 1.8)
-age = daft.Node("age", r"age", 2, 3, aspect = 1.8)
+age = daft.Node("age", r"age", 2, 3, aspect = 1.8, observed=True)
 gender = daft.Node("gender", r"gender", 3, 3, aspect = 1.8, observed=True)
 tclass = daft.Node("class", r"class", 4, 3, aspect = 1.8,observed=True)
 embark = daft.Node("embark", r"embark", 5, 3, aspect = 1.8, observed=True)
