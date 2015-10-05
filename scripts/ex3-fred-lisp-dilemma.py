@@ -1,5 +1,5 @@
-#This script implements a Bayesian network for Fred's Lisp Dilemma from 
-# Korb and Nicholson's Bayesian Artifician Intelligence. 
+#This script implements a Bayesian network for Fred's Lisp Dilemma from
+# Korb and Nicholson's Bayesian Artifician Intelligence.
 # The problem statement is as follows:
 
 #   Fred is debugging a LISP program. He just typed an expression to the LISP
@@ -15,7 +15,7 @@
 #   and is OK about 99% of the time, whereas Fred's LISP code is often buggy,
 #   say 40% of the time .
 #
-#   Solution contributed by k.rohini@gmail.com 
+#   Solution contributed by k.rohini@gmail.com
 #   Comments added by rjoy@imsc.res.in
 
 import numpy as np
@@ -36,7 +36,7 @@ interpreter = ConditionalProbabilityTable(
              ['w','w','w', 1.0],
  	           ['w','nw','w',0.0],
        	     ['nw','w','w', 0.0],
-             ['nw','nw','w', 0.0]], [code, hardware] )  
+             ['nw','nw','w', 0.0]], [code, hardware] )
 
 # The editor works if the hardware works
 editor = ConditionalProbabilityTable(
@@ -62,7 +62,7 @@ s5 = State ( cursor, name = "cursor")
 # Create the Bayesian network object with a useful name
 network = BayesianNetwork( "Freds LISP Problem" )
 
-# Add the three nodes to the network 
+# Add the three nodes to the network
 network.add_nodes( [ s1, s2, s3, s4, s5 ] )
 
 # Add transitions which represent conditional depesndencies, where the second node is conditionally dependent on the first node (Monty is dependent on both guest and prize)
@@ -76,19 +76,19 @@ network.bake()
 first_observation = { 'interpreter' : 'nw' }
 
 # beliefs will be an array of posterior distributions or clamped values for each state, indexed corresponding to the order
-# in self.states. 
+# in self.states.
 beliefs = network.forward_backward( first_observation )
 
 # Convert the beliefs into a more readable format
 beliefs = map( str, beliefs )
 
 # Print out the state name and belief for each state on individual lines
-# What is the probability of the code being buggy ? 
+# What is the probability of the code being buggy ?
 print "\n".join( "{}\t{}".format( state.name, belief ) for state, belief in zip( network.states, beliefs ) )
 
 
 # Repeat above steps for second observation
-# Now what is the probability of the code being buggy ? 
+# Now what is the probability of the code being buggy ?
 second_observation = { 'interpreter' : 'nw', 'cursor' : 'w' }
 beliefs = network.forward_backward( second_observation )
 beliefs = map( str, beliefs )

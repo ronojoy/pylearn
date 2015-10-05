@@ -3,7 +3,7 @@ import scipy.stats as stats
 from matplotlib import pyplot as plt
 
 # N throws of a coin with parameter theta0
-N, theta0 = 10, 0.5
+N, theta0 = 500, 0.5
 
 # data contains the outcome of the trial
 data = stats.bernoulli.rvs(p = theta0, size = N)

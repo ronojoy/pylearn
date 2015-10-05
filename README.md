@@ -29,7 +29,7 @@ Jaynes went on to show that these "consistent rules" are just the rules of Bayes
 I wrote a [short article in The Hindu](http://www.thehindu.com/sci-tech/science/article2747042.ece) about learning from experience, together with my colleague at [The Institute of Mathematical Sciences](https://www.imsc.res.in),  [Rahul Siddharthan](https://www.imsc.res.in/~rsidd). We jointly organized the [Bayes by the Bay](http://imsc50.imsc.res.in/article/bayes) where distinguished international colleagues lectured on applications of Bayesian inference to physics, biology, earth sciene, brain function and more. These [lectures are available on YouTube](https://www.youtube.com/playlist?list=PLhkiT_RYTEU2dnkJVZ8Tvr9QQx6xVuL30).
 
 
-Here, I list [reading material](https://github.com/ronojoy/pylearn#reading-list), [algorithms and software](https://github.com/ronojoy/pylearn#algorithms-and-software), and [tutorial slides](https://github.com/ronojoy/pylearn/tree/master/presentations) with [example codes](https://github.com/ronojoy/pylearn/tree/master/scripts) from the ongoing [workshop series](valuefromdata.net/events) co-organized with [Dorai Thodla](https://github.com/dorait). 
+Here, I list [reading material](https://github.com/ronojoy/pylearn#reading-list), [algorithms and software](https://github.com/ronojoy/pylearn#algorithms-and-software), and [tutorial slides](https://github.com/ronojoy/pylearn/tree/master/presentations) with [example codes](https://github.com/ronojoy/pylearn/tree/master/scripts) from the ongoing [workshop series](https://www.youtube.com/playlist?list=PLhkiT_RYTEU1mkJHBUiA2Ze56h6z1uZgj) co-organized with [Dorai Thodla](https://github.com/dorait). 
 
 I welcome contributions - clone this repository and send me a pull request!
 
@@ -47,10 +47,16 @@ I welcome contributions - clone this repository and send me a pull request!
 
 - "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E" - [Tom Mitchell](https://www.cs.cmu.edu/~tom/)
 
+- "...from now on we can compare our data with the model we actually want to use rather than with a model which has some mathematical convenient form. This is surely a revolution." - [Peter Clifford](http://www.stats.ox.ac.uk/~clifford/) on **Metropolis sampling**.
+
 ## Online courses
 
 - [Probabilistic graphical models](https://www.coursera.org/course/pgm) - by Daphne Koller on Coursera
 
+
+## Slide decks
+
+- [Probabilistic programming : what, why, how, when ?](http://www.slideshare.net/salesforceeng/probabalistic-programming-why-what-how-when) by Beau Cronin. 
 
 ## Reading list
 
@@ -119,6 +125,7 @@ The most popular machine learning library in Python is scikits-learn but few of 
 - [libpgm](http://pythonhosted.org/libpgm/) - representation, inference and learning of PGMs.
 - [pgmpy](https://github.com/pgmpy) - same as above but has a NetworkX interface to visualize PGMs.
 - [pomegranate](https://github.com/jmschrei/pomegranate) - PGM module with nice syntax and Cython for speed.
+- [Lea](https://code.google.com/p/lea/) - probability distributions with encapsulated probabilistic programming language. 
 - [Daft](https://github.com/dfm/daft) - rendering of probabilistic graphical models.
 - [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/) - Venture, BayesDB, Picture and CrossCat. 
 - [UnBBayes](http://sourceforge.net/projects/unbbayes/) - the only non-Python code to make the list. Has Bayesian networks, probabilistic ontologies, and more!
